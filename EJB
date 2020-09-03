@@ -1,0 +1,9 @@
+E.J.B. for Entreprise Java Beans are java Classes that implement at least two interfaces or with an annotation (as of E.J.B. 3.0 specification and later ).
+They can be :
+  Session beans meaning that can be called on demand 
+  Message-driven beans meaning that they called when a J.M.S. messsage goes in a J.M.S. queue.
+ Session beans can be either :
+  Stateless beans : beans that have no data (attributs).
+  Stateful beans : beans that do.Their data holds invocation things.One per call of bean.
+  Singleton
+JNDI : EJB, a Datasource or a JMS Queue - string map. string is usually like "{resourceType}/{resourceName}"
